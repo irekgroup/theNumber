@@ -26,6 +26,13 @@
   color: #fff;
 }
 
+@media screen and (max-width: 327px) {
+  .header-p {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+}
+
 .header-input {
   position: relative;
   bottom: 25px;
@@ -44,9 +51,11 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 846px) {
+@media screen and (max-width: 327px) {
   .header-input {
-    margin: 0px 15px 0px 10px;
+    display: block;
+    width: 200px;
+    font-size: 14px;
   }
 }
 
