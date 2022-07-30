@@ -124,7 +124,7 @@ body {
   border-radius: 10px;
 }
 
-.out {
+.out1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,13 +134,13 @@ body {
           flex-direction: column;
 }
 
-.out-p {
+.out1-p {
   color: #fff;
   padding-top: 20px;
 }
 
 @media screen and (max-width: 756px) {
-  .out-p {
+  .out1-p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
