@@ -21,7 +21,7 @@
     position: relative;
     bottom: 25px;
 
-    width: 400px;
+    width: 300px;
     font-size: 27px;
     font-weight: 600;
     cursor: pointer;
@@ -104,10 +104,19 @@
     .out {
         display: flex;
         flex-direction: column;
+
         &-p {
             color: #fff;
             padding-top: 20px;
+
+            @media screen and (max-width: 756px) {
+                display: flex;
+                justify-content: center;
+                padding: 0px 50px 0px 50px;
+            }
+
         }
+
     }
 
 
