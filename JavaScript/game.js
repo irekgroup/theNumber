@@ -23,7 +23,7 @@ function startGame(num, out) {
         out.innerHTML = 'You WINNER!!!'
     }
 
-    if (attempts===0) { //завершаем игру
+    if (attempts===1) { //завершаем игру
         out.innerHTML =  `У вас закончились попытки, хотите сыграть еще? Если да, то обновите страницу`
         return
     }
@@ -35,10 +35,10 @@ function startGame(num, out) {
         out.innerHTML = 'Вы ввели не число, предлагаю ввести число'
     }
     else if (num === "") {
-        out.innerHTML = 'Вы ввели не число, Предлагаю ввести число'
+        out.innerHTML = 'Вы ввели не число, предлагаю ввести число'
     }
     else if (num < prNum) {
-        out.innerHTML = `Вы ввели число меньше чем нужно, Предлагаю ввести новый вариант у вас осталось ${attempts} попыток`
+        out.innerHTML = `Вы ввели число меньше чем нужно, предлагаю ввести новый вариант у вас осталось ${attempts} попыток`
     }
 
 }
