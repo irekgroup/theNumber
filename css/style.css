@@ -150,7 +150,7 @@ body {
 
 .header .out1-p {
   position: relative;
-  bottom: 194px;
+  bottom: 174px;
   color: #fff;
   padding-top: 20px;
   font-family: 'Roboto';
@@ -436,11 +436,17 @@ body {
   color: #fff;
 }
 
-@media screen and (max-width: 327px) {
+@media screen and (max-width: 411px) {
+  .header-Allabay {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 327px) {
   .header-Allabay {
     display: block;
     font-size: 14px;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 15px 0px 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
