@@ -160,6 +160,7 @@ body {
 
 @media screen and (max-width: 756px) {
   .header .out1-p {
+    font-size: 14px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -170,9 +171,19 @@ body {
   }
 }
 
+@media screen and (max-width: 389px) {
+  .header .out1-p {
+    font-size: 14px;
+    position: relative;
+    bottom: 212px;
+  }
+}
+
 @media screen and (max-width: 327px) {
   .header .out1-p {
     font-size: 14px;
+    position: relative;
+    bottom: 212px;
   }
 }
 
