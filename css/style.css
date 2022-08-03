@@ -198,7 +198,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  top: 127px;
+  top: 87px;
 }
 
 .header-ci_text {
@@ -421,7 +421,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  top: 140px;
+  top: 97px;
 }
 
 @media screen and (max-width: 327px) {
